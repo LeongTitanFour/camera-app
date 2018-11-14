@@ -1,4 +1,5 @@
 var constraints = { video: { facingMode: "user"}, audio: false };
+var track = null;
 
 const cameraView = document.querySelector("#camera--view"),
       cameraOutput = document.querySelector("#camera--output"),
